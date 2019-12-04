@@ -13,10 +13,11 @@ int main() {
     
         for (int j = 0 ; j < high ; j++){
         
-            if (i + j < high - 1)
+            if (i + j < high - 1) {
                 cout << " ";
-            else
+            }else {
                 cout << "#";
+            }
         }
         cout << "\n";
     }
